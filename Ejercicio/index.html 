@@ -1,0 +1,205 @@
+<html>
+
+    <head>
+        <title>Página tipo portal</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    
+    <body>
+        <header>
+            <style>
+                body {
+                    font-family: Arial, Helvetica, sans-serif;
+                    margin: 0;
+                    background-color: #fff;
+                }
+
+                header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 15px 20px;
+                }
+
+                logo {
+                font-size: 2em;
+                color: #d2691e;
+                font-weight: bold;
+                }
+
+                busqueda {
+                font-size: 0.9em;
+                }
+
+                buscar {
+                margin-left: 10px;
+                }
+
+                nav {
+                background-color: #2c5aa0;
+                height: 40px;
+                }
+
+                main {
+                display: flex;
+                justify-content: space-between;
+                margin: 10px 20px;
+                }
+
+                aside.izquierda {
+                width: 20%;
+                font-size: 0.9em;
+                }
+
+                aside.derecha {
+                width: 20%;
+                }
+
+                section.contenido {
+                width: 55%;
+                }
+
+                aside.izquierda section,
+                aside.derecha .caja {
+                border: 1px solid #ddd;
+                margin-bottom: 15px;
+                padding: 10px;
+                }
+
+                aside.izquierda h3 {
+                color: #4b0082;
+                border-bottom: 1px solid #ccc;
+                }
+
+                .publicidad {
+                border: 1px solid #d9b673;
+                background-color: #fff9e6;
+                }
+
+                aside.derecha .caja {
+                background-color: #f5c49b;
+                border: 1px solid #d98e62;
+                }
+
+                a {
+                color: #2c5aa0;
+                text-decoration: none;
+                }
+
+                a:hover {
+                text-decoration: underline;
+                }
+
+                article {
+                margin-bottom: 25px;
+                }
+
+                article h2 {
+                color: #000;
+                font-size: 1.3em;
+                }
+
+                article img {
+                width: 80px;
+                height: 80px;
+                float: left;
+                margin: 5px 10px 5px 0;
+                border: 1px solid #999;
+                }
+
+                footer {
+                border-top: 1px solid #ccc;
+                text-align: center;
+                padding: 10px;
+                font-size: 0.9em;
+                color: #555;
+                }
+            </style>
+            <img src="logo.gif" alt="Imagen artículo 1">
+            <div id="busqueda">
+                <label for="buscar">Buscar</label>
+                <input type="text" id="buscar" name="buscar">
+            </div>
+        </header>
+
+        <nav></nav>
+
+        <main>
+            <aside class="izquierda">
+                <section class="noticias">
+                    <h3>Noticias</h3>
+                    <ul>
+                        <li>dd/mm/aaaa <a href="#">Lorem ipsum dolor sit amet</a></li>
+                        <li>dd/mm/aaaa <a href="#">Consectetuer adipiscing elit</a></li>
+                        <li>dd/mm/aaaa <a href="#">Donec molestie nunc eu sapien</a></li>
+                        <li>dd/mm/aaaa <a href="#">Maecenas aliquam dolor eget metus</a></li>
+                        <li>dd/mm/aaaa <a href="#">Fusce tristique lorem id metus</a></li>
+                    </ul>
+                </section>
+
+                <section class="enlaces">
+                    <h3>Enlaces relacionados</h3>
+                    <ul>
+                        <li><a href="#">Proin placerat</a></li>
+                        <li><a href="#">Nulla in felis</a></li>
+                        <li><a href="#">Nam luctus</a></li>
+                    </ul>
+                </section>
+
+                <section class="publicidad">
+                    <h3>Publicidad</h3>
+                    <p>Etiam fermentum, nisl tincidunt blandit interdum, massa velit posuere dolor, sed euismod sem odio at mi...</p>
+                    <a href="#">Seguir leyendo...</a>
+                </section>
+            </aside>
+            
+            <section class="contenido">
+                <article>
+                    <h2>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</h2>
+                    <img src="16410.png" alt="Imagen artículo 1">
+                    <p>
+                        Nullam est lacus, suscipit ut, dapibus quis, condimentum ac, risus...
+                    </p>
+                    <a href="#">Seguir leyendo...</a>
+                </article>
+
+                <article>
+                    <h2>Vivamus lobortis turpis ac ante fringilla faucibus</h2>
+                    <img src="16410.png" alt="Imagen artículo 2">
+                    <p>
+                        Quisque eget ipsum. Donec commodo, turpis vel venenatis sollicitudin...
+                    </p>
+                    <a href="#">Seguir leyendo...</a>
+                </article>
+            </section>
+            
+            <aside class="derecha">
+                <div class="caja">
+                    <h3>Phasellus blandit</h3>
+                    <p>Praesent sodales imperdiet augue. Mauris lorem felis, semper eu, tincidunt eu...</p>
+                    <a href="#">Seguir leyendo...</a>
+                </div>
+
+                <div class="caja">
+                    <h3>Nullam vel turpis</h3>
+                    <p>Donec commodo, turpis vel venenatis sollicitudin, quam ante convallis justo...</p>
+                    <a href="#">Seguir leyendo...</a>
+                </div>
+            </aside>
+        </main>
+
+        <footer>
+            <p>
+                <a href="#">Nulla</a> |
+                <a href="#">Pharetra</a> |
+                <a href="#">Luctus</a> |
+                <a href="#">Ipsum</a> |
+                <a href="#">Proin</a> |
+                <a href="#">Placerat</a>
+            </p>
+            <p>© Copyright Lorem ipsum</p>
+        </footer>
+            
+    </body>
+
+</html>
